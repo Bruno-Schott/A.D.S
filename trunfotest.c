@@ -105,7 +105,7 @@ int main() {
     printf("🏞️ Número de Pontos Turísticos: %d\n", pontos_turisticos1);
     printf("📈 Densidade Populacional: %.2f hab/km²\n", densidade1);
     printf("💵 PIB per Capita: %.2f reais\n", pib_per_capita1);
-    printf("⚡ Super Poder: %.2f\n", super_poder1); // Ícone alterado para ⚡
+    printf("⚡ Super Poder: %.2f\n", super_poder1); 
     linha_separadora();
 
     // Exibição dos dados da Carta 2
@@ -120,7 +120,7 @@ int main() {
     printf("🏞️ Número de Pontos Turísticos: %d\n", pontos_turisticos2);
     printf("📈 Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("💵 PIB per Capita: %.2f reais\n", pib_per_capita2);
-    printf("⚡ Super Poder: %.2f\n", super_poder2); // Ícone alterado para ⚡
+    printf("⚡ Super Poder: %.2f\n", super_poder2); 
     linha_separadora();
 
     // Comparação das cartas
@@ -132,7 +132,7 @@ int main() {
     printf("🏞️ Pontos Turísticos: Carta %d venceu (%d)\n", (pontos_turisticos1 > pontos_turisticos2) ? 1 : 2, (pontos_turisticos1 > pontos_turisticos2) ? 1 : 0);
     printf("📈 Densidade Populacional: Carta %d venceu (%d)\n", (densidade1 < densidade2) ? 1 : 2, (densidade1 < densidade2) ? 1 : 0);
     printf("💵 PIB per Capita: Carta %d venceu (%d)\n", (pib_per_capita1 > pib_per_capita2) ? 1 : 2, (pib_per_capita1 > pib_per_capita2) ? 1 : 0);
-    printf("⚡ Super Poder: Carta %d venceu (%d)\n", (super_poder1 > super_poder2) ? 1 : 2, (super_poder1 > super_poder2) ? 1 : 0); // Ícone alterado para ⚡
+    printf("⚡ Super Poder: Carta %d venceu (%d)\n", (super_poder1 > super_poder2) ? 1 : 2, (super_poder1 > super_poder2) ? 1 : 0); 
     linha_separadora();
 
     return 0;
